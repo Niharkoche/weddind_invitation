@@ -1,0 +1,139 @@
+/* Global Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #F0F8F1; /* Light pista green */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #99E6D0; /* Pista Green */
+    color: white;
+    padding: 40px 20px;
+    position: relative;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Music Controls */
+.music-controls {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.music-btn {
+    background: #FF6B6B; /* Soft red color for stop button */
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.music-btn:hover {
+    background: #E63946; /* Darker red on hover */
+}
+
+/* Couple Section */
+.intro {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #99E6D0;
+    font-size: 30px;
+}
+
+.couple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.couple div {
+    text-align: center;
+}
+
+.couple img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #99E6D0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.couple img:hover {
+    transform: scale(1.1);
+}
+
+.couple h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Wedding Details */
+.details, .blessing {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-top: 2px solid #99E6D0;
+}
+
+.details p, .blessing p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* RSVP Button */
+.rsvp-container {
+    margin-top: 20px;
+}
+
+.rsvp-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #99E6D0, #77C4A9);
+    color: white;
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.rsvp-btn:hover {
+    background: linear-gradient(135deg, #77C4A9, #99E6D0);
+    transform: scale(1.1);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #99E6D0;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
